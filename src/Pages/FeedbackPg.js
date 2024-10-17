@@ -7,7 +7,7 @@ function FeedbackPg() {
   return (
     <div className="back">
       <Navbar></Navbar>
-      <div>Feedback Page</div>
+      <div>Feedback Page checking on how to commit</div>
     </div>
   );
 }
