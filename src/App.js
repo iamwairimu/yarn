@@ -10,6 +10,7 @@ function App() {
       <div>
         <h2>A digital footprint of creations!!</h2>
         <h3>Explore the inspirations!!!!</h3>
+        <h3 className="join">Colour and Patterns!!!</h3>
       </div>
     </div>
   );
