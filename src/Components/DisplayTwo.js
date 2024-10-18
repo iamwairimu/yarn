@@ -32,7 +32,7 @@ import img52 from "../assets/image52.JPG";
 function Display() {
   return (
     <div style={styles.box_container}>
-      <Box size="small" image={img39} />
+      <Box size="small" image={img49} />
       <Box size="small" image={img28} />
       <Box size="medium" image={img47} />
       <Box size="medium" image={img51} />
@@ -45,7 +45,7 @@ function Display() {
       <Box size="small" image={img27} />
       <Box size="large" image={img32} />
       <Box size="small" image={img42} />
-      <Box size="large" image={img49} />
+      <Box size="large" image={img39} />
       <Box size="small" image={img31} />
       <Box size="small" image={img40} />
       <Box size="small" image={img50} />
