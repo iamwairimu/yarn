@@ -1,11 +1,14 @@
 import React from "react";
 
-function Box(props) {
+function Box({ size, image }) {
   return (
     <div
       style={{
         ...styles.box,
-        ...styles[props.size],
+        ...styles[size],
+        backgroundImage: `url(${image})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     ></div>
   );
@@ -16,7 +19,6 @@ const styles = {
     margin: "15px 10px",
     padding: 0,
     borderRadius: "16px",
-    backgroundColor: "red",
     width: "100%",
     height: "100%",
   },
