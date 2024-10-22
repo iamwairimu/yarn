@@ -8,6 +8,7 @@ import CrochetPg from "./Pages/CrochetPg";
 import KnitPg from "./Pages/KnitsPg";
 import FeedbackPg from "./Pages/FeedbackPg";
 
+//Creating a router instance with defined routes
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
   },
 ]);
 
+//Creating a root element for rendering the site
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
